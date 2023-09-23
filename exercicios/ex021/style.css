@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
+  margin: 0px;
+}
+
+header {
+  background-color: azure;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav{
+  background-color:bisque;
+  padding: 4px;
+  box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.411);
+}
+
+nav > a {
+  text-decoration: none;
+  color: rgb(47, 133, 207);
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+nav > a:hover{
+  text-decoration: underline;
+
+}
+main {
+  background-color: azure;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.411);
+}
+
+article {
+  background-color: rgb(215, 225, 250);
+  padding:  5px;
+  
+}
+
+article > aside {
+  background-color: rgb(155, 147, 135);
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: azure;
+  text-align: center;
+  padding: 4px;
+  margin: 0px;
+}
+
+footer > p {
+  margin: 0px;
+}

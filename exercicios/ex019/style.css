@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+ Em html é id    = Em CSS é #
+ Em html é class = Em CSS é .
+*/
+body{
+  background: linear-gradient(to right,#A7C5BD,#E2E8F0);
+}
+
+
+#principal{
+  color: #ffffff;
+  text-align: center;
+  background-color:#1F2A38;
+
+}
+
+h1{
+  color: #2F3A59;
+}
+
+h2{
+  color: #3B3B98;
+}
+
+.basico{
+  color: #00673f;
+  font-weight: bold;
+}
+
+.intermediario{
+  color: #003989;
+  font-weight: bold;
+}
+
+.avancado{
+  color: #33005d;
+  font-weight: bold;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhando com links</title>
+</head>
+<body>
+  <h1>Usando links externos</h1>
+  <p>Você pode acessar links, como este do <a href="https://www.google.com.br/">Google</a>.</p>
+  <!--Fazendo isso, o link vai sobrepor a sua página quando clicado.-->
+  <p>Mas para que sua página continue aberta e o link abra uma nova guia de navegação, o comando é diferente. Por exemplo: Para acessar o <a href="https://www.google.com.br/" target="_blank" rel="external">Google em nova guia</a></p>
+  <!--Adicionado dentro da tag a, o atributo target para que o link seja aberto em nova guia-->
+  <p>Você pode acessar também, o <a href="https://youtube.com">Youtube</a> e fechará está página.</p>
+  <p>Mas, se quiser manter esse site aberto e abrir o youtube em outra guia, basta <a href="https://youtube.com" target="_blank" rel="external">CLICAR AQUI</a>.</p>
+
+  <h2>Usando links internos</h2>
+  <p>Essa é a primeira página do site. Se quiser, pode acessar também a minha <a href="pagina02.html" rel="next">Segunda Página</a></p>
+  <p>Para acessar a página de notícias, <a href="noticias/pagina03.html">clique aqui</a></p>
+
+  <h2>Links para download</h2>
+  <!--Para baixar arquivos pdf ou zip, basta adicionar o atributo download-->
+  <ul>
+    <li><a href="livro/Guia_De_Carreira_Express_OneBitCode-2.pdf" download>Baixar o pdf</a></li>
+    <li><a href="livro/Guia_De_Carreira_Express_OneBitCode-2.zip" download>Arquivo Compactado</a></li>
+  </ul>
+</body>
+</html>

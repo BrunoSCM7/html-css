@@ -5,11 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabelas</title>
   <style>
+    body {
+          background-color: aquamarine;
+        }
 
     h1 {
       text-align: center;
     }
 
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 88vh;
+    }
     
     table {
       width: 500px;
@@ -38,25 +47,13 @@
     .num{
       text-align: right;
     }
-
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      height: 88vh;
-    }
-
-    body {
-      background-color: aquamarine;
-      
-    }
-    
   </style>
 </head>
 <body>
   <h1>Uso de tabelas grandes</h1>
   <!--
     Anatomia para tabelas grandes
+      CAPTION
       THEAD
         TR, TD, TH
       TBODY
@@ -69,8 +66,8 @@
       <caption>AS 10 MAIORES POPULAÇÕES DO BRASIL</caption>
       <thead>
         <tr>
-          <th>Estado</th>
-          <th>População</th>
+          <th scope="col">Estado</th>
+          <th scope="col" style="width: 90px;">População</th>
         </tr>
       </thead>
       <tbody>
@@ -117,12 +114,11 @@
       </tbody>
       <tfoot>
         <tr>
-          <th>Total de Habitantes</th>
+          <th scope="row">Total de Habitantes</th>
           <td class="num"><strong>151 049 408</strong></td>
         </tr>
       </tfoot>
     </table>
   </div>
-  
 </body>
 </html>

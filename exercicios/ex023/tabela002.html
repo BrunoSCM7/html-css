@@ -24,6 +24,7 @@
       width: 500px;
       border-collapse: collapse;
       background-color: azure;
+      position: relative;
     }
     
     caption {
@@ -39,9 +40,19 @@
       color: #ffffff;
     }
 
+    thead > tr > th {
+      position: sticky;
+      top: -1;
+      background-color: rgb(8, 184, 17);;
+    }
+
     td, th {
       border: 1px solid black;
       padding: 10px;
+    }
+
+    tbody > tr:nth-child(2n){ /* Efeito zebrado na tabela */
+      background-color: blanchedalmond;
     }
 
     .num{

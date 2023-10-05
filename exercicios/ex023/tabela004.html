@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <style>
+    h1 {
+      text-align: justify
+    }
+
+    table {
+      width: 600px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 2px solid black;
+      padding: 15px;
+      text-align: center;
+    }
+
+    th {
+      font-weight: bolder;
+    }
+  </style>
+</head>
+<body>
+  <h1>Exercicios de Tabelas</h1>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Grupo</th>
+        <th scope="col">Nomes</th>
+        <th colspan="3" scope="colgroup">Filmes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="3" scope="rowgroup">Mulheres</th>
+        <td>Ana Maria</td>
+        <td>Barbie</td>
+        <td>Wall-e</td>
+        <td>Harry Potter</td>
+      </tr>
+      <tr>
+        <td>Beatriz Souza</td>
+        <td>Madagascar</td>
+        <td>Era do Gelo</td>
+        <td>Titanic</td>
+      </tr>
+      <tr>
+        <td>Cláudia Melo</td>
+        <td>O Paizão</td>
+        <td>Pantera Negra</td>
+        <td>Up Altas Aventuras</td>
+      </tr>
+      <tr>
+        <th rowspan="3" scope="rowgroup">Homens</th>
+        <td>Bruno Mendonça</td>
+        <td>Vingadores</td>
+        <td>Velozes & Furiosos</td>
+        <td>Tropa de Elite</td>
+      </tr>
+      <tr>
+        <td>Wallace Rocha</td>
+        <td>Homem de Ferro</td>
+        <td>Toy Story</td>
+        <td>Rei Leão</td>
+      </tr>
+      <tr>
+        <td>José Lourenço</td>
+        <td>Capitão América</td>
+        <td>Besouro Azul</td>
+        <td>Bastardos Inglórios</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

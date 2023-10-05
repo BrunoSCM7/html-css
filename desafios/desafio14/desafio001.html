@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 14</title>
+  <style>
+    h1 {
+      text-align: justify
+    }
+
+    table {
+      width: 600px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 2px solid black;
+      padding: 15px;
+      text-align: center;
+    }
+
+    thead th { /* Estilizando titulos */
+      font-weight: bolder;
+      background-color: cadetblue;
+      color: azure;
+    }
+
+    .collor {
+      font-weight: bolder;
+      background-color: cadetblue;
+      color: azure;
+    }
+  </style>
+</head>
+<body>
+  <h1>DESAFIO DE TABELAS - PARTE 2</h1>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2" scope="col">ÁREA</th>
+        <th rowspan="2" scope="col">DISCIPLINAS</th>
+        <th colspan="2" scope="colgroup">NOTAS</th>
+        <th rowspan="2" scope="col">MÉDIA</th>
+      </tr>
+      <tr>
+        <th scope="col">Nota 1</th>
+        <th scope="col">Nota 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="4" scope="rowgroup">EXATAS</th>
+        <td>Matemática</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Física</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Quimica</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Biologia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr class="collor">
+        <th colspan="4" scope="row">MÉDIA DE EXATAS</th>
+        <th>0.0</th>
+      </tr>
+      <tr>
+        <th rowspan="2" scope="rowgroup">HUMANAS</th>
+        <td>História</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>Geografia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr class="collor">
+        <th colspan="4" scope="row">MÉDIA DE HUMANAS</th>
+        <th>0.0</th>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

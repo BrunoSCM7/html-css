@@ -8,7 +8,12 @@ Celular: de 600px até 768px
 Tablet: de 768px até 992px
 Desketop: 992px até 1200px
 Grandes Telas: Acima de 1200px
+
+(DE == MIN WIDTH; ATÉ == MAX WIDTH)
+
 */
+
+
 
 /* VERSÃO DE IMPRESSÃO */
 @media print{
